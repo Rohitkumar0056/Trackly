@@ -34,6 +34,7 @@ app.use(
     secure: config.NODE_ENV === "production",
     httpOnly: true,
     sameSite: "none",
+    domain: ".onrender.com"
   })
 );
 
